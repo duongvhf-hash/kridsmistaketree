@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>..?</title>
+
+<style>
+
+html,
+body {
+
+    margin: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: #000;
+
+    overflow: hidden;
+
+}
+
+
+#back {
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform:
+        translate(-50%, -50%);
+
+    color: #fff;
+
+    font-family:
+        Arial,
+        sans-serif;
+
+    font-size: 35px;
+
+    cursor: pointer;
+
+    user-select: none;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div id="back">
+    go back
+</div>
+
+
+<script>
+
+const back =
+    document.getElementById(
+        "back"
+    );
+
+
+back.addEventListener(
+    "click",
+    () => {
+
+        window.location.href =
+            "https://duongvhf-hash.github.io/kridstree/";
+
+    }
+);
+
+</script>
+
+
+</body>
+
+</html>
